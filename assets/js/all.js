@@ -300,13 +300,13 @@ $(window).load(function(){
   var backIndex = Math.floor(Math.random()*5);
   
   if(container.is('.home')){
-    background = "background_home_img"+backIndex;
+    background = "background_home_img" + backIndex;
   }else{
-    background = "background_inner_img"+backIndex;
+    background = "background_inner_img" + backIndex;
   }
   
   container.css({
-    "background-image":"url(assets/images/"+background+".jpg)",
+    "background-image":"url(/assets/images/" + background + ".jpg)",
     "background-position":"top",
     "background-repeat":"no-repeat"
   });
