@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <base href=""/>
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+    <script type="text/javascript">
+      var BASE_URL = 'http://pseataskforce.docksal/';
+      var PSEA_LANG = 'fr';
+    </script>
+    <title>PSEA Task Force</title>    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />    <link href="../assets/css/reset.css" media="all" rel="stylesheet" type="text/css" />
+<link href="../assets/css/global.css" media="all" rel="stylesheet" type="text/css" />
+<link href="../assets/css/contact.css" media="all" rel="stylesheet" type="text/css" />        <script type="text/javascript" src="../assets/js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="../assets/js/all.js"></script>  </head>
+  <body>
+    <div id="container" class="search">
+      <div id="top">
+        <a href="index.html" id='logoLink' class="logo transparency">PEAS - protection contre l'exploitation et les abus sexuels par notre propre personnel</a>
+        
+        <div id="menu">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="overview.html">Aperçu</a></li>
+            <li><a href="addressing_it.html">A propos de</a></li>
+            <li><a href="tools.html">Outils</a></li>
+            <li><a href="taskforce.html">Groupe de travail </a></li>
+            <li><a href="achievements.html">Réalisations</a></li>
+            <li><a href="faq.html">Faq</a></li>
+            <li><a href="links.html">Liens</a></li>
+            <li><a href="contact.html">Contactez</a></li>
+          </ul>
+        </div>
+        
+        <div id="lang">
+          <ul>
+            <li><a href="../ar/contact.html">Arabic</a></li><li><a href="../en/contact.html">English</a></li><li><a href="../es/contact.html">Spanish</a></li><li><a class="current">French</a></li>          </ul>
+        </div>
+      </div> <!-- top finish -->
+      
+      <div id="content">
+
+  <div class="content">
+    <div class="top">
+      <div class="text">
+        <h2 class="transparency">Nous contacter</h2>
+        <p>N&rsquo;h&eacute;sitez pas &agrave; nous contacter pour de plus amples informations sur la protection contre les actes d&rsquo;exploitation et les abus sexuels commis par votre propre personnel ou si vous avez une quelconque question!</p>      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="list">
+      <div style="font-size: 16px;padding: 15px 30px;">
+        <p>This is an archived copy of the PSEA website additional information is now available on <a href="https://interagencystandingcommittee.org/iasc-task-team-on-accountability-to-affected-populations-and-protection-from-sexual-exploitation-and-abuse-aap-psea" target="_blank">https://interagencystandingcommittee.org/iasc-task-team-on-accountability-to-affected-populations-and-protection-from-sexual-exploitation-and-abuse-aap-psea</a></p>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+  </div>
+
+  <div class="search">
+    <h2>A propos du CPI</h2>
+    <!--h3>PSEA</h3-->
+    <h4>A propos du CPI</h4>
+    <p>Si vous voulez en savoir davantage sur le Comit&eacute; permanent interorganisations (CPI), veuillez consulter son site Internet sur&nbsp;: <a href="http://interagencystandingcommittee.org/contact">interagencystandingcommittee.org/contact</a><br />Vous y trouverez des informations suppl&eacute;mentaires sur le Groupe de travail sur la PEAS.</p>  </div>
+
+  <div class="clear"></div>
+</div> <!-- content finish -->
+
+<script type="text/javascript">
+$(function(){
+  var $btSubmit = $('#btSubmit');
+  $('#formContact').submit(function(){
+    var $this = $(this);
+
+    function postCallback(rs){
+      if(rs.error){
+        alert(rs.message);
+      } else {
+        alert('Message envoyé');
+      }
+      $btSubmit.val('Envoyer').removeAttr('disabled');
+    }
+
+    $btSubmit.val('Attendre...').attr('disabled','disabled');
+
+    $.post($this.attr('action'), $this.serializeArray(), postCallback, 'json');
+
+    return false;
+  });
+});
+</script>
+      <div id="footer">
+        <a href="../index.html#" class="logo psea hover">PSEA</a>
+        <a href="../index.html#" class="logo iasc hover">IASC</a>
+        <!--
+        <ul>
+          <li><a href="#">Plan du site</a></li>
+          <li><a href="http://pseataskforce.docksal/fr/terms-of-use">Conditions d'utilisation</a></li>
+          <li><a href="http://pseataskforce.docksal/fr/privacy-notice">Confidentialité</a></li>
+          <li><a href="http://pseataskforce.docksal/fr/fraud-alert">Alerte à la fraude</a></li>
+          <li><a href="http://pseataskforce.docksal/fr/help">Aide</a></li>
+        </ul>
+        -->
+        <p class="copyright">&copy; PSEA all rights reserved</p>
+        <p class="signature" dir="ltr">designed by: <a href="http://luccaco.com" target="_blank" class="luccaco hover">Luccaco</a></p>
+      </div> <!-- footer finish -->
+    </div>
+    
+    <!--[if IE 6]>
+      <script type="text/javascript" src="assets/js/dd_belatedpng.js"></script>
+      <script type="text/javascript">
+        DD_belatedPNG.fix('.transparency');
+      </script>
+    <![endif]-->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-28592038-1']);
+	  _gaq.push(['_trackPageview']);
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+  </body>
+</html>

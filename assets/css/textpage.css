@@ -1,0 +1,24 @@
+#content{position:relative;display:block;width:960px; padding:198px 0 94px 0;z-index:10;margin:0 auto;}
+#content .content{display:block;width:650px;float:left;}
+#content .content .top{display:block;width:640px;border-left:10px solid #bf1e2e;background:url(../images/back_purple04.png) left top;}
+#content .content .top .text{display:block;height:120px;}
+#content .content .top .text h2{font-size:18px;color:#fff;font-weight:bold;display:block;margin:0 15px;padding:15px 15px 0;background:url(../images/bullet02.png) 0 23px no-repeat;}
+#content .content .top .text p{font-size:14px;color:#f0dddf;padding:15px 30px;}
+#content .content .description{display:block;padding:25px;background:#f3f1f3;}
+#content .content .description h2{color:#bf1e2e;font-size:16px;font-weight:bold;padding:20px 0 0;}
+#content .content .description *{color:#58595b;font-size:14px;line-height:22px;}
+#content .content .description p{ margin: 1.12em 0; }
+#content .content .description li{padding:0 0 15px 15px;background:url(../images/bullet07.jpg) 0 8px no-repeat;}
+#content .content .description a{text-decoration:underline;}
+#content .content .description a:hover{color:#000;}
+#content .content .description em,
+#content .content .description i{font-style:italic;}
+#content .content .description b,
+#content .content .description strong{font-weight:bold;}
+#content .content .description blockquote{color:#2c2922;font-size:18px;display:block;width:300px;padding:0 10px 0 15px;border-left:10px solid #bf1e2e;position:relative;left:-25px;float:left;line-height:26px;}
+#content .navigator{display:block;width:300px;float:left;margin:120px 0 0 0;background:url(../images/back_grey03.png) left top;padding:0 10px 0 0;position:relative;height:202px;}
+#content .navigator ul{display:block;position:relative;left:-5px;top:10px;}
+#content .navigator ul li{display:block;margin:5px 0;}
+#content .navigator ul li a{color:#bf1e2e;font-size:14px;font-weight:bold;display:block;height:21px;padding:7px 0 0 15px;}
+#content .navigator ul li a:hover{background:url(../images/textpage_menu.gif) left top no-repeat;color:#fff;}
+

@@ -1,0 +1,42 @@
+*{font-family:Arial,Verdana,Helvetica;}
+body{background:url(../images/background_body.jpg) right top;}
+a, a *, * a *, * a{outline:none;text-decoration:none;cursor:pointer;}
+.clear{display:block;clear:both;}
+
+#container{position:relative;display:block;width:100%;}
+
+#top{position:absolute;top:0;right:50%;margin:0 -480px 0 0;display:block;width:960px;height:205px;z-index:20;}
+#top .logo{position:absolute;top:20px;right:50%;display:block;width:112px;height:147px;margin:0 -480px 0 0;text-indent:-10000px;background:url(../images/logo_psea_inner_top.png) right top no-repeat;z-index:199;}
+#top .logo:hover{background:url(../images/logo_psea_inner_top.png) 0 -147px no-repeat;}
+#top .logo.home{width:140px;height:185px;background:url(../images/logo_psea_top.png) right top no-repeat;}
+#top .logo.home:hover{background:url(../images/logo_psea_top.png) 0 -185px no-repeat;}
+
+#menu{position:absolute;top:65px;left:0;display:block;width:auto;}
+#menu ul{display:block;width:auto;}
+#menu ul li{display:inline-block;width:auto;padding:0 10px 0 0;direction:rtl !important;}
+#menu ul li a{font-size:13px;color:#585244;font-weight:bold;display:block;padding:0 0 2px 0;}
+#menu ul li a:hover{color:#bf1e2e;}
+
+#lang{position:absolute;display:block;width:auto;top:0;left:0;}
+#lang ul{border-right:1px solid #bf1e2e;display:block;width:auto;background:#efefef;padding:0 0 0 8px;}
+#lang ul li{display:inline-block;width:auto;}
+#lang ul li a{display:block;color:#c1b8a7;font-size:12px;padding:5px 10px 5px 2px;}
+#lang ul li a:hover{color:#968a74;}
+
+#footer{position:relative;display:block;width:100%;height:222px;border-bottom:10px solid #bf1e2e;background:#2c2922;}
+#footer .logo{display:block;text-indent:-10000px;position:absolute;}
+#footer .psea{width:70px;height:95px;background:url(../images/logo_psea_footer.jpg) right top no-repeat;top:27px;right:50%;margin:0 -480px 0 0;}
+#footer .iasc{width:175px;height:30px;background:url(../images/logo_iasc_footer.jpg) right top no-repeat;top:67px;right:50%;margin:0 -355px 0 0;}
+#footer ul{display:block;width:auto;position:absolute;top:67px;left:50%;margin:0 0 0 -480px;}
+#footer ul li{display:inline-block;width:auto;padding:0 15px 0 0;}
+#footer ul li a{color:#979081;font-size:13px;}
+#footer ul li a:hover{text-decoration:underline;}
+#footer p{position:absolute;top:180px;color:#585244;}
+#footer .copyright{right:50%;margin:0 -480px 0 0;font-size:13px;}
+#footer .signature{left:50%;margin:0 0 0 -480px;font-size:9px;}
+#footer .signature a{display:inline-block;width:59px;height:11px;background:url(../images/luccaco_signature.jpg) right top no-repeat;text-indent:-10000px; overflow: hidden;}
+
+/* IE6 */
+#menu ul li{*display:block;*float:right;}
+#lang ul li{*display:block;*width:auto;*float:right;*background:#efefef;}
+#footer ul li{*display:block;*float:right;}

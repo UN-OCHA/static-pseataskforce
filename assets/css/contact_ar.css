@@ -1,0 +1,29 @@
+#content{position:relative;display:block;width:960px; padding:198px 0 94px 0;z-index:10;margin:0 auto;}
+#content .content{display:block;width:650px;float:right;}
+#content .content .top{display:block;width:640px;border-right:10px solid #bf1e2e;background:url(../images/back_purple04.png) right top;}
+#content .content .top .text{display:block;height:120px;}
+#content .content .top .text h2{font-size:18px;color:#fff;font-weight:bold;display:block;margin:0 15px;padding:15px 15px 0;background:url(../images/bullet02_ar.png) right 23px no-repeat;}
+#content .content .top .text p{font-size:14px;color:#f0dddf;padding:15px 30px;}
+#content .content .list{background:#f3f2f3;padding:20px 0 42px 20px;}
+#content .content form{display:block;}
+#content .content form ul{display:block;padding:10px 0;}
+#content .content form ul li{display:block;padding:5px 0;direction:rtl !important;}
+#content .content form ul li label{display:block;float:right;width:130px;text-align:left;padding:5px 20px;font-size:16px;color:#bf1e2e;font-weight:bold;}
+#content .content form ul li input{display:inline-block;font-size:13px;color:#2c2922;border:none;padding:7px 10px;border-right:1px solid #bf1e2e;font-style:italic;width:365px;}
+#content .content form ul li textarea{display:inline-block;font-size:13px;color:#2c2922;border:none;padding:7px 10px;border-right:1px solid #bf1e2e;font-style:italic;width:365px;height:220px;}
+#content .content form ul li .button{display:block;border:none;background:#bf1e2e;font-style:normal;font-weight:bold;color:#fff;font-size:15px;font-family:Arial;padding:5px 20px;width:auto;float:left;margin:10px 0 0 75px;cursor:pointer;}
+
+#content .search{display:block;width:280px;float:right;margin:120px 0 0 0;background:url(../images/back_grey03.png) right top;padding:73px 10px 35px 20px;position:relative;}
+#content .search h2{display:block;width:auto;background:#41362a;position:absolute;top:28px;right:0; color:#fff;text-transform:uppercase;font-size:12px;font-weight:bold;padding:5px;border-right:20px solid #3a2c21;}
+#content .search h3{font-size:18px;color:#bf1e2e;font-weight:bold;padding:0 20px 0 0;}
+#content .search h4{font-size:14px;color:#bf1e2e;font-weight:bold;padding:0 20px 30px 0;}
+#content .search p{color:#343028;font-size:14px;padding:0 20px 0 0;line-height:18px;}
+#content .search p strong{font-weight:bold;}
+#content .search p a{color:#bf1e2e;}
+#content .search p a:hover{text-decoration:underline;}
+#content #types {float:right;margin-bottom: 10px;}
+#content #types input {width:25px;}
+#content #types p {font-size: 12px; font-weight: bold; margin-bottom: 5px;}
+
+/* IE6 */
+#content .content form ul li .button{_margin:10px 0 0 35px;}
