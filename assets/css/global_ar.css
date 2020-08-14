@@ -40,3 +40,12 @@ a, a *, * a *, * a{outline:none;text-decoration:none;cursor:pointer;}
 #menu ul li{*display:block;*float:right;}
 #lang ul li{*display:block;*width:auto;*float:right;*background:#efefef;}
 #footer ul li{*display:block;*float:right;}
+
+.banner-static {
+  padding: 1rem;
+  background-color: #fbfb38;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  text-align: center;
+}

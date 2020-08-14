@@ -306,7 +306,7 @@ $(window).load(function(){
   }
   
   container.css({
-    "background-image":"url(/static-pseataskforce/assets/images/" + background + ".jpg)",
+    "background-image":"url(/assets/images/" + background + ".jpg)",
     "background-position":"top",
     "background-repeat":"no-repeat"
   });
