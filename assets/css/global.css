@@ -49,3 +49,8 @@ a, a *, * a *, * a{outline:none;text-decoration:none;cursor:pointer;}
   z-index: 9999;
   text-align: center;
 }
+
+.banner-static a {
+  color: inherit;
+  text-decoration: underline;
+}
